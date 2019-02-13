@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".topic16"
+    android:background="@color/silver">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/extra"
+            android:adjustViewBounds="true"/>
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_below="@+id/img"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MICROCONTROLLERS"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="#000000"/>
+
+        <android.support.v7.widget.CardView
+            android:layout_below="@id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="10dp">
+
+            <LinearLayout
+                android:layout_below="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:padding="10dp"
+                    android:lineSpacingExtra="3dp"
+                    android:textSize="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A microcontroller is a small computer on a single integrated circuit."
+                    android:textColor="@color/black"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:padding="10dp"
+                    android:lineSpacingExtra="3dp"
+                    android:textSize="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="15dp"
+                    android:layout_height="wrap_content"
+                    android:text="
+A microcontroller contains one or more CPUs (processor cores) along with memory and programmable
+input/output peripherals. Program memory is also often included on chip, as well as a small
+amount of RAM."
+                    android:textColor="@color/black"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:padding="10dp"
+                    android:lineSpacingExtra="3dp"
+                    android:textSize="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="15dp"
+                    android:layout_height="wrap_content"
+                    android:text="
+Microcontrollers are used in automatically controlled products and devices, such as automobile
+engine control systems, implantable medical devices, remote controls, office machines,
+appliances, power tools, toys and other embedded systems. By reducing the size and cost compared
+to a design that uses a separate microprocessor, memory, and input/output devices,
+microcontrollers make it economical to digitally control even more devices and processes."
+                    android:textColor="@color/black"
+                    android:textAlignment="center"/>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </RelativeLayout>
+
+</ScrollView>

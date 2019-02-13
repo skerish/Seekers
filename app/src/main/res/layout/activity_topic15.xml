@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".topic15"
+    android:background="@color/silver">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/cluster_computing"
+            android:adjustViewBounds="true"/>
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_below="@+id/img"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CLUSTER COMPUTING"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="#000000"/>
+
+        <android.support.v7.widget.CardView
+            android:layout_below="@id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="10dp">
+
+            <LinearLayout
+                android:layout_below="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:padding="10dp"
+                    android:lineSpacingExtra="3dp"
+                    android:textSize="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A computer cluster is a set of loosely or tightly connected computers that work together so that,
+in many respects, they can be viewed as a single system.(Parallel processing)"
+                    android:textColor="@color/black"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:padding="10dp"
+                    android:lineSpacingExtra="3dp"
+                    android:textSize="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text="
+computer clusters have each node set to perform the same task, controlled and scheduled by
+software."
+                    android:textColor="@color/black"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:padding="10dp"
+                    android:lineSpacingExtra="3dp"
+                    android:textSize="16dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="
+The components of a cluster are usually connected to each other through fast local area networks,
+with each node (computer used as a server) running its own instance of an operating system."
+                    android:textColor="@color/black"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:padding="10dp"
+                    android:lineSpacingExtra="3dp"
+                    android:textSize="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="
+In most circumstances, all of the nodes use the same hardware[better source needed] and the
+same operating system, although in some setups (e.g. using Open Source Cluster Application
+Resources (OSCAR)), different operating systems can be used on each computer, or different
+hardware."
+                    android:textColor="@color/black"
+                    android:layout_marginTop="15dp"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:padding="10dp"
+                    android:lineSpacingExtra="3dp"
+                    android:textSize="16dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="
+Clusters are usually deployed to improve performance and availability over that of a single
+computer, while typically being much more cost-effective than single computers of comparable
+speed or availability."
+                    android:textColor="@color/black"
+                    android:textAlignment="center"/>
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </RelativeLayout>
+
+</ScrollView>

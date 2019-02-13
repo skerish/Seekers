@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.skerish.seekers">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher1"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher1_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".menu" />
+        <activity android:name=".topic1" />
+        <activity android:name=".topic2" />
+        <activity android:name=".topic3" />
+        <activity android:name=".topic4" />
+        <activity android:name=".topic5" />
+        <activity android:name=".topic6" />
+        <activity android:name=".topic7" />
+        <activity android:name=".topic8" />
+        <activity android:name=".topic9" />
+        <activity android:name=".topic10" />
+        <activity android:name=".topic11" />
+        <activity android:name=".topic12" />
+        <activity android:name=".topic13" />
+        <activity android:name=".topic14" />
+        <activity android:name=".topic15" />
+        <activity android:name=".topic16" />
+        <activity android:name=".topic17" />
+        <activity android:name=".topic18" />
+        <activity android:name=".topic19" />
+        <activity android:name=".topic20" />
+        <activity android:name=".topic21" />
+        <activity android:name=".topic22" />
+        <activity android:name=".topic23" />
+        <activity android:name=".topic24" />
+        <activity android:name=".topic25" />
+        <activity android:name=".topic26" />
+        <activity android:name=".topic27" />
+        <activity android:name=".topic28"></activity>
+    </application>
+
+</manifest>
